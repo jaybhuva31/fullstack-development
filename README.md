@@ -31,13 +31,30 @@ This repository reflects a structured approach to full stack development, coveri
 
 * MERN Stack (MongoDB, Express.js, React.js, Node.js)
 
-## Structure
+---
 
-```id="mernstr"
+## 📂 Structure
+
+```
 frontend/        → UI development (HTML, CSS, JS, React, Tailwind, Bootstrap)  
 backend/         → Server-side logic and REST APIs (Node.js, Express)  
 database/        → Database schemas and queries (MongoDB, MySQL)  
 ```
+
+---
+
+## 📅 Daily Progress
+
+### Day 1 – Creative HTML Portfolio Page
+
+
+📁 Folder:
+
+
+  * Day1_HTML_Creative/
+  * 
+
+---
 
 ## Objectives
 
@@ -47,14 +64,17 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 * Apply modern frontend frameworks and design systems
 * Follow clean architecture and best practices
 
+---
+
 ## Usage
 
 Clone the repository:
 
-```id="clonecmd"
-git clone https://github.com/jaybhuva31/fullstack-development
-
 ```
+git clone https://github.com/jaybhuva31/fullstack-development
+```
+
+---
 
 ## Author
 
