@@ -52,7 +52,6 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 
 
   * Day1_HTML_Creative/
-  * 
 
 ---
 
