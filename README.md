@@ -46,6 +46,7 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 ## 📅 Daily Progress
 
 ### Day 1 – Creative HTML Portfolio Page
+### Day 2: HTML advanced tags and structured portfolio layout
 
 
 
