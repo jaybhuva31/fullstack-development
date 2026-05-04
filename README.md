@@ -48,10 +48,12 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 ### Day 1 – Creative HTML Portfolio Page
 
 
+
 📁 Folder:
 
 
   * Day1_HTML_Creative/
+  * Day2_HTML_Advanced/
 
 ---
 
