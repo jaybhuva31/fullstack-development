@@ -56,6 +56,10 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 
   * Day1_HTML_Creative/
   * Day2_HTML_Advanced/
+  * Day3_HTML_Part/
+        lists.html
+        form.html
+        table.html
 
 ---
 
