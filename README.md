@@ -66,7 +66,7 @@ database/        → Database schemas and queries (MongoDB, MySQL)
         div-layout.html
         span-highlight.html
         block-inline-demo.html
-  * Day6_HTML_Graphics/
+  * Day5_HTML_Graphics/
   
 
 ---
