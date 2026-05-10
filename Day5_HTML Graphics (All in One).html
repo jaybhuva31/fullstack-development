@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 - HTML Graphics</title>
+</head>
+
+<body style="font-family: Arial; background:#0f172a; color:white; text-align:center;">
+
+    <h1>🎨 Day 6 - HTML Graphics</h1>
+
+    <!-- SVG Circle -->
+    <h2>🔵 SVG Circle</h2>
+
+    <svg width="250" height="250">
+        <circle cx="125" cy="125" r="80"
+                fill="blue"
+                stroke="white"
+                stroke-width="4"/>
+    </svg>
+
+    <hr>
+
+    <!-- SVG Rectangle -->
+    <h2>🟧 SVG Rectangle</h2>
+
+    <svg width="400" height="150">
+
+        <!-- Rectangle -->
+        <rect x="30" y="30"
+              width="120" height="80"
+              fill="orange"/>
+
+        <!-- Rounded Rectangle -->
+        <rect x="200" y="30"
+              width="150" height="80"
+              rx="20" ry="20"
+              fill="green"/>
+
+    </svg>
+
+    <hr>
+
+    <!-- SVG Star -->
+    <h2>⭐ SVG Star</h2>
+
+    <svg width="300" height="300">
+
+        <polygon points="150,20 179,111 275,111
+                         197,165 223,255
+                         150,200 77,255
+                         103,165 25,111
+                         121,111"
+                 fill="gold"
+                 stroke="white"
+                 stroke-width="3"/>
+
+    </svg>
+
+    <hr>
+
+    <!-- Logo -->
+    <h2>🚀 SVG Logo</h2>
+
+    <svg width="400" height="250">
+
+        <circle cx="200" cy="120" r="80"
+                fill="#1e293b"
+                stroke="cyan"
+                stroke-width="5"/>
+
+        <text x="145" y="135"
+              font-size="40"
+              fill="white"
+              font-family="Arial">
+              JB
+        </text>
+
+    </svg>
+
+    <hr>
+
+    <!-- Canvas -->
+    <h2>🖌 Canvas Basics</h2>
+
+    <canvas id="myCanvas"
+            width="400"
+            height="250"
+            style="border:2px solid white;">
+    </canvas>
+
+    <script>
+
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+
+        // Rectangle
+        ctx.fillStyle = "blue";
+        ctx.fillRect(40, 50, 120, 80);
+
+        // Circle
+        ctx.beginPath();
+        ctx.arc(280, 90, 50, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+
+        // Text
+        ctx.font = "30px Arial";
+        ctx.fillStyle = "white";
+        ctx.fillText("Canvas", 130, 220);
+
+    </script>
+
+</body>
+</html>
