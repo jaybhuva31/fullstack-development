@@ -67,6 +67,12 @@ database/        → Database schemas and queries (MongoDB, MySQL)
         span-highlight.html
         block-inline-demo.html
   * Day5_HTML_Graphics/
+        ✔ Circle
+        ✔ Rectangle
+        ✔ Rounded Rectangle
+        ✔ Star
+        ✔ Logo
+        ✔ Canvas Basics
   
 
 ---
