@@ -73,6 +73,11 @@ database/        → Database schemas and queries (MongoDB, MySQL)
         ✔ Star
         ✔ Logo
         ✔ Canvas Basics
+  * Day6_HTML5_Tags/
+        ✔ header-footer.html
+        ✔ aside-article.html
+        ✔ meter.html
+        ✔ image-map.html
   
 
 ---
