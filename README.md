@@ -50,6 +50,7 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 ### Day 3: HTML Lists, Forms and Tables (separate files)
 ### Day 4: HTML Block and Inline Elements using div and span
 ### Day 5: HTML Graphics using SVG and Canvas
+### Day 6: HTML5 Semantic Tags and Image Map
 
 
 
