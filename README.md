@@ -79,6 +79,12 @@ database/        → Database schemas and queries (MongoDB, MySQL)
         ✔ aside-article.html
         ✔ meter.html
         ✔ image-map.html
+  * Day7_CSS_Basics/
+        ✔ inline-css.html
+        ✔ internal-css.html
+        ✔ external-css.html
+        ✔ style7.css
+    
   
 
 ---
