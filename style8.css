@@ -1,0 +1,57 @@
+/* Universal Selector */
+*{
+    font-family:Arial;
+}
+
+/* Body */
+body{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+}
+
+/* ID Selector */
+#main-title{
+    color:cyan;
+    text-align:center;
+}
+
+/* Class Selector */
+.card{
+    background:#1e293b;
+    padding:20px;
+    margin:20px;
+    border-radius:10px;
+}
+
+/* Pseudo Class */
+a:hover{
+    color:yellow;
+    font-size:25px;
+}
+
+/* Pseudo Element */
+.intro::first-letter{
+    font-size:40px;
+    color:red;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    background:lightblue;
+}
+
+input[type="password"]{
+    background:lightpink;
+}
+
+/* Descendant Selector */
+.parent p{
+    color:orange;
+}
+
+/* Child Selector */
+.parent > p{
+    color:cyan;
+    font-weight:bold;
+}
