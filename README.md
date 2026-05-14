@@ -85,6 +85,12 @@ database/        → Database schemas and queries (MongoDB, MySQL)
         ✔ internal-css.html
         ✔ external-css.html
         ✔ style7.css
+  * Day8_CSS_Selectors/
+        ✔ id-class.html
+        ✔ pseudo.html
+        ✔ attribute.html
+        ✔ universal-descendant-child.html
+        ✔ style8.css
     
   
 
