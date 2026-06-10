@@ -54,6 +54,7 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 ### Day 7: Introduction to CSS and Ttpes of CSS
 ### Day 8: CSS Selectors and Advanced Styling
 ### Day 9: CSS Background, Text Manipulation and Fonts
+### Day 10: CSS Border, Margin, Padding and Float
 
 
 
