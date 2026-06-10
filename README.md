@@ -97,6 +97,9 @@ database/        → Database schemas and queries (MongoDB, MySQL)
   * Day9_CSS_Background_Text_Fonts/
         ✔ Day9_CSS_Background_Text_Fonts.html
         ✔ style9.css
+  * Day10_CSS_Box_Model/
+        ✔ Day10_CSS_Box_Model.html
+        ✔ style10.css
     
   
 
