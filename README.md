@@ -101,7 +101,9 @@ database/        → Database schemas and queries (MongoDB, MySQL)
   * Day10_CSS_Box_Model/
         ✔ Day10_CSS_Box_Model.html
         ✔ style10.css
-    
+  * Day11_CSS_Effects/
+        ✔ Day11_CSS_Effects.html
+        ✔ style11.css
   
 
 ---
