@@ -55,6 +55,7 @@ database/        → Database schemas and queries (MongoDB, MySQL)
 ### Day 8: CSS Selectors and Advanced Styling
 ### Day 9: CSS Background, Text Manipulation and Fonts
 ### Day 10: CSS Border, Margin, Padding and Float
+### Day 11: CSS Image Styling, Gradients, Transitions, Animations and Tooltips
 
 
 
