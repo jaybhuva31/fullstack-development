@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+/* Images */
+
+.rounded{
+    border-radius:50%;
+}
+
+.thumbnail{
+    border:4px solid white;
+    padding:5px;
+}
+
+.responsive{
+    max-width:100%;
+    height:auto;
+}
+
+.transparent{
+    opacity:0.5;
+}
+
+.flip:hover{
+    transform:scaleX(-1);
+}
+
+/* Gradients */
+
+.gradient{
+    width:250px;
+    height:120px;
+    margin:20px auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+}
+
+.linear{
+    background:linear-gradient(to right, cyan, blue);
+}
+
+.radial{
+    background:radial-gradient(circle, red, orange);
+}
+
+.conic{
+    background:conic-gradient(red, yellow, green, blue, red);
+}
+
+/* Transition */
+
+.transition-btn{
+
+    padding:15px 25px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:cyan;
+
+    cursor:pointer;
+
+    transition-property:all;
+    transition-duration:0.5s;
+    transition-delay:0.2s;
+}
+
+.transition-btn:hover{
+
+    background:orange;
+
+    transform:scale(1.1);
+}
+
+/* Animation */
+
+.box{
+
+    width:100px;
+    height:100px;
+
+    background:red;
+
+    margin:20px auto;
+
+    animation-name:move;
+    animation-duration:3s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes move{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(300px);
+    }
+}
+
+/* Tooltip */
+
+.tooltip{
+
+    position:relative;
+
+    display:inline-block;
+
+    cursor:pointer;
+}
+
+.tooltip-text{
+
+    visibility:hidden;
+
+    width:180px;
+
+    background:black;
+
+    color:white;
+
+    text-align:center;
+
+    padding:8px;
+
+    border-radius:6px;
+
+    position:absolute;
+
+    bottom:125%;
+
+    left:50%;
+
+    margin-left:-90px;
+}
+
+.tooltip:hover .tooltip-text{
+
+    visibility:visible;
+}
